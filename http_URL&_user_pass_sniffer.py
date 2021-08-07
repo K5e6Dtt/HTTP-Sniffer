@@ -1,4 +1,5 @@
-# Only works with http websites, will crash if the website uses https or will simply wont show it
+# Only works with http websites, might crash when used with https
+# Give the interface to sniff on
 
 import scapy.all as scapy,argparse
 from scapy.layers import http
